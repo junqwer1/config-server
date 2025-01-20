@@ -10,6 +10,7 @@ spring:
 
   cloud:
     config:
+
       server:
         native: # 컨피그 서버 특정 경로에 파일로써 설정 파일 관리
           search-locations: classpath:/configs # 유연성 떨어짐
